@@ -25,10 +25,13 @@ import {
   Line,
 } from "./pages";
 
+import { useStateContext } from "./contexts/ContextProvider";
+
 function App() {
-  const activeMenu = true;
+const { activeMenu } = useStateContext();
+
   return (
-    <>
+    
       <div>
         <BrowserRouter>
           <div className="flex relative dark:bg-main-dark-bg">
@@ -60,7 +63,7 @@ function App() {
               <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
                 <Navbar />
               </div>
-            </div>
+            
             <div>
               <Routes>
                 {/* Dashboard */}
@@ -89,11 +92,12 @@ function App() {
                 <Route path="/stacked" element={<Stacked />} />
               </Routes>
             </div>
+            </div>
           </div>
         </BrowserRouter>
       </div>
-    </>
-  );
+    
+  )
 }
 
 export default App;
