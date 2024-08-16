@@ -40,7 +40,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern':
-          "url('https://t4.ftcdn.net/jpg/04/02/84/25/360_F_402842585_rhQLYa3iujKZI8KjAjOQKJAWmPHOquQY.jpg')",
+          "url('https://cdni.iconscout.com/illustration/premium/thumb/admin-control-panel-illustration-download-in-svg-png-gif-file-formats--dashboard-interface-administration-web-and-mobile-application-pack-design-development-illustrations-3722637.png?f=webp')",
       },
     },
   },
